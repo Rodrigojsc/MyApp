@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-    @GetMapping("/myapp")
+    @GetMapping("/")
     public String myApp() {
+
         return "Primeiro deploy! Dupla: Rodrigo e Gustavo V";
     }
 }
