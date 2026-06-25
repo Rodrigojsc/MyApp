@@ -9,6 +9,6 @@ public class Controller {
     @GetMapping("/")
     public String myApp() {
 
-        return "Primeiro deploy! Dupla: Rodrigo e Gustavo V";
+        return "Segundo deploy! Dupla: Rodrigo e Gustavo V";
     }
 }
